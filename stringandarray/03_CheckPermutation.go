@@ -1,7 +1,6 @@
 package stringandarray
 
-//判断一个字符串重新排列之后能不能是另一个字符串
-
+//CheckPermutation 判断一个字符串重新排列之后能不能是另一个字符串
 func CheckPermutation(s, t string) bool {
 	l1, l2 := len(s), len(t)
 

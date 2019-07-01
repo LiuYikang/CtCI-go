@@ -1,7 +1,6 @@
 package stringandarray
 
-//将字符串中的空格替换成“%20”
-
+//URLify 将字符串中的空格替换成“%20”
 func URLify(s string) string {
 	if len(s) == 0 {
 		return s

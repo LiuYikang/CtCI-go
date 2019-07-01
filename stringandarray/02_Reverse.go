@@ -1,7 +1,6 @@
 package stringandarray
 
-//反转字符串
-
+//Reverse 反转字符串
 func Reverse(str string) string {
 	if len(str) == 0 {
 		return str

@@ -1,7 +1,6 @@
 package stringandarray
 
-// 判断一个字符串是不是可以是一个回文串的重排列
-
+// IsPalindromePerm 判断一个字符串是不是可以是一个回文串的重排列
 func IsPalindromePerm(s string) bool {
 	counts := make(map[byte]int)
 	l := len(s)
